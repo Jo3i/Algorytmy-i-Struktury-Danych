@@ -1,4 +1,4 @@
-tablica = [-1,3,-4,-8,32,54,-9,66]
+tablica = [-1,3,-4,-82,32,54,-91,66]
 najm = tablica[0]
 for i in tablica:
     if najm >= i:
