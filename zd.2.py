@@ -1,4 +1,4 @@
-n =  int(input("Podaj liczbę elementów ciągu: "))
+n = int(input("Podaj liczbę elementów ciągu: "))
 i = 0
 if n>0:
     ile_u = 0
