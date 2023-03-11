@@ -1,13 +1,8 @@
-'''tablica=[1,2,34,5,6,7]
-minimum=tablica[0]
+tablica = [-1,3,-4,-8,32,54,-9,66]
+najm = tablica[0]
 for i in tablica:
-    if i<=minimum:
-        minimum=tablica[i]
-print("Najmniejsza liczba to: ",minimum)'''
-tab=[-3,-4,-9,0,1,3,15,90,9,17,-1]
-naj=tab[0]
-for x in tab:
-    if x<=naj:
-        naj=tab[x]
+    if najm >= i:
+        najm = i
+print("najmniejsza liczba w liście to :",najm)
 
-print(f"najmniejsza liczba w liście to : {naj}")
+
