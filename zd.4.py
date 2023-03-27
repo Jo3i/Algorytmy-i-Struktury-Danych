@@ -3,8 +3,6 @@ najm = t[0]
 for i in t:
     if najm >= i:
         najm = i
-    else:
-        print("tablica jest pusta")
 print("najmniejsza liczba w liście to :",najm)
 
 
